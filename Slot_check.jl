@@ -40,14 +40,7 @@ function check(x)
 			dose_one1=state1[!,:available_capacity_dose1][i]
 
 		end
-		if occursin("Nalkheda",state1[!,:name][i]) == true && state1[!,:min_age_limit][i] == 18
-			dose_one1=state1[!,:available_capacity_dose1][i]
-
-		end
-		if occursin("nalkheda",state1[!,:name][i]) == true && state1[!,:min_age_limit][i] == 18
-			dose_one1=state1[!,:available_capacity_dose1][i]
-
-		end
+		
 		
 	end
 	return dose_one1
